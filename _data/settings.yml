@@ -1,0 +1,17 @@
+menu:
+- {name: 'Research', url: '/research'}
+- {name: 'Teaching', url: '/courses'}
+- {name: 'CV', url: '/cv'}
+
+courses:
+- {name: 'Macroeconomics (MBA)', prof: 'Erik Hurst'}
+- {name: 'Applied Macroeconomics: Macro data for micro models (PhD)', prof: 'Erik Hurst and Chang-Tai Hsieh'}
+- {name: 'Advanced Decision Models with Python (MBA)', prof: 'Don Eisenstein'}
+- {name: 'Industrial Organization (Undergrad)', prof: 'Michael Dinerstein'}
+
+social:
+- {icon: 'github', link: 'https://github.com/obordeu'}
+- {icon: 'twitter', link: 'https://twitter.com/oliviabordeu'}
+
+contacts:
+- {name: 'Olivia Bordeu', title: 'PhD Student', department: 'Economics', institution: 'University of Chicago - Booth', institution_address: '5807 S. Woodlawn Ave., Chicago', email: 'obordeug@chicagobooth.edu', image: 'assets/img/contact.jpg'}
