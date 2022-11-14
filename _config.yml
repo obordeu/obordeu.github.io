@@ -1,4 +1,5 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://obordeu.github.io # the base hostname & protocol for your site, e.g. http://example.com
+domain: obordeu.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Olivia Bordeu" # the name of your site, e.g. ACME Corp.
 description: ""
