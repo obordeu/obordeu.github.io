@@ -3,8 +3,11 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Working Papers</h3>
       {% for item in site.data.research.index %}
         <p><h4>{{ item.name }}</h4> 
-          {% if item.coathors!='' %}
-            with <a href={{item.coathors_website}}>{{ item.coathors }}</a>
+          {% if item.coauthors!='' %}
+            with 
+            {% for coauthor in item.coauthors %}
+              <a href={{coauthor.website}}>{{ coauthor.name }}</a>{{ coauthor.del }}
+            {% endfor %}
           {% endif %}
           </p>
         <p align="justify">{{ item.summary }}</p>
