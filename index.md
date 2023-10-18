@@ -8,6 +8,6 @@ Welcome! I am a fifth-year Ph.D. Student in Economics at the University of Chica
 You can reach me at [obordeug@chicagobooth.edu](mailto:obordeug@chicagobooth.edu)
 
 #### **Fields**
-* Spatial and Urban Economics
-* Development
 * Trade
+* Public Economics
+* Spatial and Urban Economics
