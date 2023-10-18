@@ -15,8 +15,8 @@ You can reach me at [obordeug@chicagobooth.edu](mailto:obordeug@chicagobooth.edu
 * Spatial and Urban Economics
 
 ##### **References**
-* [Esteban Rossi-Hansberg](https://rossihansberg.economics.uchicago.edu/)
-* [Erik Hurst](https://erikhurst.com/)
+* [Esteban Rossi-Hansberg](https://rossihansberg.economics.uchicago.edu/) (co-chair)
+* [Erik Hurst](https://erikhurst.com/) (co-chair)
 * [Jonathan Dingel](http://www.jdingel.com/)
 * [Milena Almagro](https://www.milena-almagro.com/)
 
