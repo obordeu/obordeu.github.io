@@ -1,7 +1,7 @@
 menu:
 - {name: 'Research', url: '/research'}
 - {name: 'Teaching', url: '/courses'}
-- {name: 'CV', url: '/cv'}
+- {name: 'CV', url: '/CV/CV Olivia Bordeu.pdf'}
 
 courses:
 - {name: 'Macroeconomics (MBA)', prof: 'Erik Hurst'}
