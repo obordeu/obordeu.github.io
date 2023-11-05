@@ -13,4 +13,18 @@
         <p align="justify">{{ item.summary }}</p>
       {% endfor %}
   </div>
+    <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Work in Progress</h3>
+      {% for item in site.data.wip.index %}
+        <p><h4>{{ item.name }}</h4> 
+          {% if item.coauthors!='' %}
+            with 
+            {% for coauthor in item.coauthors %}
+              <a href={{coauthor.website}}>{{ coauthor.name }}</a>{{ coauthor.del }}
+            {% endfor %}
+          {% endif %}
+          </p>
+        <p align="justify">{{ item.summary }}</p>
+      {% endfor %}
+  </div>
 </div>
