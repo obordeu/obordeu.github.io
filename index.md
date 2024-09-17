@@ -11,4 +11,4 @@ I completed my Ph.D. in Economics at the University of Chicago Booth School of B
 
 You can reach me at [ogazmuri@princeton.edu](mailto:ogazmuri@princeton.edu)
 
-I co-organize the [Online Spatial and Urban Seminar](osus.info). Check it out!
+I co-organize the [Online Spatial and Urban Seminar (OSUS)](https://osus.info/). Check it out!
