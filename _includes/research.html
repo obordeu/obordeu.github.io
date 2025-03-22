@@ -9,6 +9,9 @@
               <a href={{coauthor.website}}>{{ coauthor.name }}</a>{{ coauthor.del }}
             {% endfor %}
           {% endif %}
+          {% if item.status!='' %}
+          <p align="justify">{{ item.status }}</p>
+          {% endif %}
           </p>
         <p align="justify">{{ item.summary }}</p>
         <p style="color:Gray;" align="justify">{{ item.presented_at }}</p>
