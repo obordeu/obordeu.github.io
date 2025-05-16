@@ -9,6 +9,6 @@ I am interested in urban and spatial economics. I study the mechanisms behind di
 
 I completed my Ph.D. in Economics at the University of Chicago Booth School of Business in 2024.
 
-You can reach me at [ogazmuri@princeton.edu](mailto:ogazmuri@princeton.edu)
+You can reach me at [oliviabordeu@berkeley.edu](mailto:oliviabordeu@berkeley.edu)
 
 I co-organize the [Online Spatial and Urban Seminar (OSUS)](https://osus.info/). Check it out!
