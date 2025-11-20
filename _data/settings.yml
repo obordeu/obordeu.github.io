@@ -14,4 +14,4 @@ social:
 - {icon: 'twitter', link: 'https://twitter.com/oliviabordeu'}
 
 contacts:
-- {name: 'Olivia Bordeu', title: 'PhD Student', department: 'Economics', institution: 'University of Chicago - Booth', institution_address: '5807 S. Woodlawn Ave., Chicago', email: 'obordeug@chicagobooth.edu', image: 'assets/img/contact.jpg'}
+- {name: 'Olivia Bordeu', title: 'PhD Student', department: 'Economics', institution: 'University of California Berkeley - Haas', institution_address: '5807 S. Woodlawn Ave., Chicago', email: 'oliviabordeu@berkeley.edu', image: 'assets/img/contact.jpg'}
