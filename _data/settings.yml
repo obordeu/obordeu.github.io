@@ -3,11 +3,14 @@ menu:
 - {name: 'Teaching', url: '/courses'}
 - {name: 'CV', url: '/CV/CV Olivia Bordeu.pdf'}
 
+teaching:
+- {name: 'Introduction to Real Estate Finance (Undergrad)', institution: 'UC Berkeley Haas', year: '2026'}
+
 courses:
-- {name: 'Macroeconomics (MBA)', prof: 'Erik Hurst'}
-- {name: 'Applied Macroeconomics: Macro data for micro models (PhD)', prof: 'Erik Hurst and Chang-Tai Hsieh'}
-- {name: 'Advanced Decision Models with Python (MBA)', prof: 'Don Eisenstein'}
-- {name: 'Industrial Organization (Undergrad)', prof: 'Michael Dinerstein'}
+- {name: 'Applied Macroeconomics: Micro data for macro models (PhD)', prof: 'Erik Hurst and Chang-Tai Hsieh', year: '2022'}
+- {name: 'Advanced Decision Models with Python (MBA)', prof: 'Don Eisenstein', year: '2022'}
+- {name: 'Macroeconomics (MBA)', prof: 'Erik Hurst', year: '2021-2022'}
+- {name: 'Industrial Organization (Undergrad)', prof: 'Michael Dinerstein', year: '2021'}
 
 social:
 - {icon: 'github', link: 'https://github.com/obordeu'}

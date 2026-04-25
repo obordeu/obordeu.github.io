@@ -6,9 +6,18 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Teaching Assistant</h3>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">UC Berkeley Haas</h3>
+    {% for course in site.data.settings.teaching %}
+      <p><b>{{ course.name }}</b>, {{ course.year }}</p>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Teaching Assistant (University of Chicago)</h3>
     {% for course in site.data.settings.courses %}
-      <p><b>{{ course.name }}</b> for {{ course.prof }} </p>
+      <p><b>{{ course.name }}</b> for {{ course.prof }}, {{ course.year }}</p>
     {% endfor %}
   </div>
 </div>
