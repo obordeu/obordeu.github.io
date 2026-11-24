@@ -1,35 +1,31 @@
-<div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Working Papers</h3>
-      {% for item in site.data.research.index %}
-        <p><h4>{{ item.name }}</h4> 
-          {% if item.coauthors!='' %}
-            with 
-            {% for coauthor in item.coauthors %}
-              <a href={{coauthor.website}}>{{ coauthor.name }}</a>{{ coauthor.del }}
-            {% endfor %}
-          {% endif %}
-          {% if item.status!='' %}
-          <p align="justify">{{ item.status }}</p>
-          {% endif %}
-          </p>
-        <p align="justify">{{ item.summary }}</p>
-        <p style="color:Gray;" align="justify">{{ item.presented_at }}</p>
-      {% endfor %}
+<section>
+  <h2>Working Papers</h2>
+  {% for item in site.data.research.index %}
+  <div class="paper">
+    <h3>{% if item.pdf %}<a href="{{ item.pdf }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h3>
+    {% include coauthors.html coauthors=item.coauthors %}
+    {% if item.status and item.status != '' %}<p class="meta status">{{ item.status }}</p>{% endif %}
+    {% if item.pdf or item.summary %}
+    <div class="links">
+      {% if item.pdf %}<a class="btn" href="{{ item.pdf }}">PDF</a>{% endif %}
+      {% if item.summary %}
+      <details>
+        <summary>Abstract</summary>
+        <p class="abstract">{{ item.summary }}</p>
+      </details>
+      {% endif %}
+    </div>
+    {% endif %}
   </div>
-    <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Work in Progress</h3>
-      {% for item in site.data.wip.index %}
-        <p><h4>{{ item.name }}</h4> 
-          {% if item.coauthors!='' %}
-            with 
-            {% for coauthor in item.coauthors %}
-              <a href={{coauthor.website}}>{{ coauthor.name }}</a>{{ coauthor.del }}
-            {% endfor %}
-          {% endif %}
-          </p>
-        <p align="justify">{{ item.summary }}</p>
-        <p style="color:Gray;" align="justify">{{ item.presented_at }}</p>
-      {% endfor %}
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Work in Progress</h2>
+  {% for item in site.data.wip.index %}
+  <div class="paper">
+    <h3>{{ item.title }}</h3>
+    {% include coauthors.html coauthors=item.coauthors %}
   </div>
-</div>
+  {% endfor %}
+</section>

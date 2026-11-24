@@ -4,17 +4,16 @@ menu:
 - {name: 'CV', url: '/CV/CV Olivia Bordeu.pdf'}
 
 teaching:
-- {name: 'Introduction to Real Estate Finance (Undergrad)', institution: 'UC Berkeley Haas', year: '2026'}
+- {name: 'Introduction to Real Estate Finance', level: 'Undergrad'}
+- {name: 'Real Estate Finance and Securitization', level: 'MBA'}
+- {name: 'Special Topics in Urban Economics I', level: 'PhD'}
 
 courses:
-- {name: 'Applied Macroeconomics: Micro data for macro models (PhD)', prof: 'Erik Hurst and Chang-Tai Hsieh', year: '2022'}
-- {name: 'Advanced Decision Models with Python (MBA)', prof: 'Don Eisenstein', year: '2022'}
-- {name: 'Macroeconomics (MBA)', prof: 'Erik Hurst', year: '2021-2022'}
-- {name: 'Industrial Organization (Undergrad)', prof: 'Michael Dinerstein', year: '2021'}
+- {name: 'Applied Macroeconomics: Micro data for macro models', level: 'PhD', prof: 'Erik Hurst and Chang-Tai Hsieh', year: '2022'}
+- {name: 'Advanced Decision Models with Python', level: 'MBA', prof: 'Don Eisenstein', year: '2022'}
+- {name: 'Macroeconomics', level: 'MBA', prof: 'Erik Hurst', year: '2021-2022'}
+- {name: 'Industrial Organization', level: 'Undergrad', prof: 'Michael Dinerstein', year: '2021'}
 
 social:
-- {icon: 'github', link: 'https://github.com/obordeu'}
-- {icon: 'twitter', link: 'https://twitter.com/oliviabordeu'}
-
-contacts:
-- {name: 'Olivia Bordeu', title: 'PhD Student', department: 'Economics', institution: 'University of California Berkeley - Haas', institution_address: '5807 S. Woodlawn Ave., Chicago', email: 'oliviabordeu@berkeley.edu', image: 'assets/img/contact.jpg'}
+- {name: 'GitHub', link: 'https://github.com/obordeu'}
+- {name: 'Twitter', link: 'https://twitter.com/oliviabordeu'}

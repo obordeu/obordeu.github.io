@@ -1,0 +1,5 @@
+{% if include.coauthors and include.coauthors.size > 0 %}
+<p class="meta">with
+  {% for coauthor in include.coauthors %}{% if coauthor.website and coauthor.website != '' %}<a href="{{ coauthor.website }}">{{ coauthor.name }}</a>{% else %}{{ coauthor.name }}{% endif %}{% if forloop.last %}{% elsif forloop.rindex == 2 %} and {% else %}, {% endif %}{% endfor %}
+</p>
+{% endif %}

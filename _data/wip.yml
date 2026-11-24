@@ -1,3 +1,9 @@
 index:
-- {name: 'Political Competition in Urban Transportation Policies: Evidence from New York City', coauthors: [{name: 'Milena Almagro', website: 'https://www.milena-almagro.com/', del: '.'}]}
-- {name: 'Green Buildings: Aggregate Effects of Housing Carbon Policies', coauthors: [{name: 'Alvaro Contreras Mellado', website: 'https://sites.google.com/view/acontrerasmellado/home', del: ' and '},{name: 'Santiago Franco', website: 'https://www.santiago-franco.com/', del: '.'}]}
+- title: 'Political Competition in Urban Transportation Policies: Evidence from New York City'
+  coauthors:
+  - {name: 'Milena Almagro', website: 'https://www.milena-almagro.com/'}
+
+- title: 'Green Buildings: Aggregate Effects of Housing Carbon Policies'
+  coauthors:
+  - {name: 'Alvaro Contreras Mellado', website: 'https://sites.google.com/view/acontrerasmellado/home'}
+  - {name: 'Santiago Franco', website: 'https://www.santiago-franco.com/'}
