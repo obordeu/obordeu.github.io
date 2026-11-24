@@ -55,8 +55,8 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 /* Sections */
 section { margin-bottom: 56px; }
 h2 {
-  font-family: var(--sans); font-size: 0.8rem; font-weight: 600;
-  letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted);
+  font-family: var(--sans); font-size: 1.22rem; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
   margin: 0 0 28px; padding-bottom: 10px; border-bottom: 1px solid var(--line);
 }
 
